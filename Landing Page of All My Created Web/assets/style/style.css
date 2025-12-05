@@ -1,0 +1,115 @@
+/* --------------------
+   GLOBAL RESET
+--------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f7f8fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --------------------
+   HEADER
+--------------------- */
+.header {
+    background: #ffffff;
+    padding: 40px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.info h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 800px;
+    line-height: 1.7;
+}
+
+/* --------------------
+   MAIN CONTENT
+--------------------- */
+.main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* --------------------
+   PROJECT CARDS
+--------------------- */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.project {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.project h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #333;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.project a:hover {
+    background: #007bff;
+}
+
+/* --------------------
+   FOOTER
+--------------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 40px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
